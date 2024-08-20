@@ -1,0 +1,70 @@
+.social-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.social-icons{
+    text-align: center;
+}
+
+.social-icons ul{
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons ul li{
+        display: inline-block;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        background: rgb(16, 194, 170);
+        line-height: 60px;
+        border-radius: 18px 0px;
+        transition: 0.7s;
+    }
+
+    .social-icons ul li:hover{
+        background: #004042;
+        line-height: 60px;
+        border-radius: 0px 18px;
+        transition: 0.7s;
+    }
+
+    .social-icons ul li a{
+
+    }
+
+
+.social-icons ul li a i{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.social-icons ul li:hover .fa{
+    color: rgb(195, 245, 248);
+    transition: 0.7s;
+    transform: rotate(360deg);
+}
+
+.shadow-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.shadow-section .box{
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    margin-left: 55px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 20px;
+}
+
+.shadow-section .box i{
+    font-size: 50px;
+}
+
+
+
+
+
